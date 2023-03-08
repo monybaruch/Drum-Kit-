@@ -1,0 +1,64 @@
+:root {
+  --main-font-: "Arvo", cursive;
+  --secondary-font-: sans-serif;
+  --text-color-: #dbedf3;
+  --secondary-color-: #da0463;
+  --background-color-: #333;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  text-align: center;
+  background-color: var(--background-color-);
+}
+
+h1 {
+  font-size: 5rem;
+  color: var(--text-color-);
+  font-family: var(--main-font-);
+  text-shadow: 3px 0 var(--secondary-color-);
+}
+
+footer {
+  color: var(--text-color-);
+  font-family: var(--secondary-font-);
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 var(--text-color-);
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404b69;
+  font-size: 5rem;
+  font-family: var(--main-font-);
+  line-height: 2;
+  font-weight: 900;
+  color: var(--secondary-color-);
+  text-shadow: 3px 0 var(--text-color-);
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
